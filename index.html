@@ -1,0 +1,159 @@
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+
+.tenor-sans-regular {
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#ingredient{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 8px 0;
+    background-color: #f4f1ea;
+}
+
+#ingredient .title {
+    font-size: 36px;
+    letter-spacing: -1px;
+    line-height: 52px;
+    color: #282828;
+}
+
+#ingredient .swiper{
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    height: auto;
+    background-color: transparent;
+}
+#ingredient .swiper-wrapper{
+    width: 100%;
+    height: auto;
+    padding: 36px 0;
+}
+#ingredient .swiper .swiper-wrapper .swiper-slide{
+    width: 348px;
+    height: 348px;
+    margin-right:12px;
+    background-color: #c5925d;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#ingredient .swiper .swiper-wrapper .swiper-slide .swipe-title{
+    text-transform: uppercase;
+    font-size: 17px;
+}
+#ingredient .swiper .swiper-wrapper .swiper-slide .swipe-image-av{
+width: 120px;
+height: 120px;
+border-radius: 100%;
+overflow: clip;
+}
+#ingredient .swiper .swiper-wrapper .swiper-slide .swipe-image-av img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+object-position: center;
+}
+#ingredient .swiper .swiper-wrapper .swiper-slide .swipe-text{
+    text-transform: uppercase;
+    font-size: 13px;
+    text-align: center;
+    max-width: 95%;
+}
+
+
+/* Bullets design */
+#ingredient .swiper-pagination > .swiper-pagination-bullet {
+    opacity: 1;
+    border: #fff solid 1px;
+    background-color: #fff;
+}
+#ingredient .swiper-pagination >.swiper-pagination-bullet-active {
+    background-color: #c5925d;
+}
+</style>
+
+<section id="ingredient">
+    <h1 class="tenor-sans-regular title">Nos ingredients</h1>
+
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <h4 class="swipe-title tenor-sans-regular">Kératine</h4>
+                <div class="swipe-image-av">
+                    <img src="https://enissaticosmetics.com/cdn/shop/files/Ingredient_-_Huile_d_Alma.png?v=1702650767" alt="">
+                </div>
+                <p class="swipe-text tenor-sans-regular">RENFORCE LA STRUCTURE DES CHEVEUX EN COMBLANT LES ZONES ENDOMMAGÉES. ELLE AIDE À LISSER LES FRISOTTIS, À RÉDUIRE LES POINTES FOURCHUES ET À AMÉLIORER LA BRILLANCE, POUR DES CHEVEUX PLUS FORTS ET PLUS SAINS</p>
+            </div>
+            <div class="swiper-slide">
+                <h4 class="swipe-title tenor-sans-regular">protéine de blé et de soie</h4>
+                <div class="swipe-image-av">
+                    <img src="https://enissaticosmetics.com/cdn/shop/files/Ingredient_-_Huile_Ricin.png?v=1702650768" alt="">
+                </div>
+                <p class="swipe-text tenor-sans-regular">LA PROTÉINE DE BLÉ RENFORCE LES CHEVEUX DE L’INTÉRIEUR, TANDIS QUE LA PROTÉINE DE SOIE HYDRATE ET ADOUCIT. ENSEMBLE, CES INGRÉDIENTS LAISSENT LES CHEVEUX PLUS LISSES ET PLUS FORTS.</p>
+            </div>
+            <div class="swiper-slide">
+                <h4 class="swipe-title tenor-sans-regular">Huile de Nigelle</h4>
+                <div class="swipe-image-av">
+                    <img src="https://enissaticosmetics.com/cdn/shop/files/Ingredient_-_Huile_de_Nigelle.png?v=1702650768" alt="">
+                </div>
+                <p class="swipe-text tenor-sans-regular">L’HUILE DE NIGELLE DANS UN TRAITEMENT DE BOTOX CAPILLAIRE OFFRE UNE NUTRITION INTENSE ET UNE HYDRATATION PROFONDE. ELLE RENFORCE LES CHEVEUX, APAISE LE CUIR CHEVELU ET LES PROTÈGE CONTRE LES DOMMAGES EXTÉRIEURS.</p>
+            </div>
+            <div class="swiper-slide">
+                <h4 class="swipe-title tenor-sans-regular">Huile D'argan</h4>
+                <div class="swipe-image-av">
+                    <img src="https://enissaticosmetics.com/cdn/shop/files/Ingredient_-_Huile_d_Argan.png?v=1702650767" alt="">
+                </div>
+                <p class="swipe-text tenor-sans-regular">DANS UN TRAITEMENT DE BOTOX CAPILLAIRE, L’HUILE D’ARGAN NOURRIT ET HYDRATE INTENSÉMENT LES CHEVEUX, RÉDUISANT LES FRISOTTIS ET AMÉLIORANT LEUR ASPECT POUR DES CHEVEUX PLUS DOUX ET PLUS BRILLANTS.</p>
+            </div>
+
+            <div class="swiper-slide">
+                <h4 class="swipe-title tenor-sans-regular">Kératine</h4>
+                <div class="swipe-image-av">
+                    <img src="https://enissaticosmetics.com/cdn/shop/files/Ingredient_-_Huile_de_Nigelle.png?v=1702650768" alt="">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <h4 class="swipe-title tenor-sans-regular">protéine de blé et de soie</h4>
+            </div>
+            <div class="swiper-slide">
+                <h4 class="swipe-title tenor-sans-regular">Huile de Nigelle</h4>
+            </div>
+            <div class="swiper-slide">
+                <h4 class="swipe-title tenor-sans-regular">Huile D'argan</h4>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+    </div>
+</section>
+<script>
+new Swiper('.swiper', {
+          // Optional parameters
+          direction: 'horizontal',
+          loop: true,
+          slidesPerView: 4,
+          // If we need pagination
+          pagination: {
+            el: '.swiper-pagination',
+          },
+          paginationClickable: true,
+        });
+</script>
